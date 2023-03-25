@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DemoFrolDataSet" targetNamespace="http://tempuri.org/DemoFrolDataSet.xsd" xmlns:mstns="http://tempuri.org/DemoFrolDataSet.xsd" xmlns="http://tempuri.org/DemoFrolDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DemoFrolConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DemoFrolConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DemoFrol.Properties.Settings.GlobalReference.Default.DemoFrolConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="1TableAdapter" GeneratorDataComponentClassName="_1TableAdapter" Name="1" UserDataComponentName="1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DemoFrolConnectionString (Settings)" DbObjectName="DemoFrol.dbo.[1]" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT transport_type, transport_color, transport_model, transport_number, transport_enabled, current_point_location_address, price FROM dbo.[1]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="transport_type" DataSetColumn="transport_type" />
+              <Mapping SourceColumn="transport_color" DataSetColumn="transport_color" />
+              <Mapping SourceColumn="transport_model" DataSetColumn="transport_model" />
+              <Mapping SourceColumn="transport_number" DataSetColumn="transport_number" />
+              <Mapping SourceColumn="transport_enabled" DataSetColumn="transport_enabled" />
+              <Mapping SourceColumn="current_point_location_address" DataSetColumn="current_point_location_address" />
+              <Mapping SourceColumn="price" DataSetColumn="price" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DemoFrolDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DemoFrolDataSet" msprop:Generator_UserDSName="DemoFrolDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="_x0031_" msprop:Generator_TableClassName="_1DataTable" msprop:Generator_TableVarName="table1" msprop:Generator_TablePropName="_1" msprop:Generator_RowDeletingName="_1RowDeleting" msprop:Generator_RowChangingName="_1RowChanging" msprop:Generator_RowEvHandlerName="_1RowChangeEventHandler" msprop:Generator_RowDeletedName="_1RowDeleted" msprop:Generator_UserTableName="1" msprop:Generator_RowChangedName="_1RowChanged" msprop:Generator_RowEvArgName="_1RowChangeEvent" msprop:Generator_RowClassName="_1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="transport_type" msprop:Generator_ColumnVarNameInTable="columntransport_type" msprop:Generator_ColumnPropNameInRow="transport_type" msprop:Generator_ColumnPropNameInTable="transport_typeColumn" msprop:Generator_UserColumnName="transport_type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_color" msprop:Generator_ColumnVarNameInTable="columntransport_color" msprop:Generator_ColumnPropNameInRow="transport_color" msprop:Generator_ColumnPropNameInTable="transport_colorColumn" msprop:Generator_UserColumnName="transport_color" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_model" msprop:Generator_ColumnVarNameInTable="columntransport_model" msprop:Generator_ColumnPropNameInRow="transport_model" msprop:Generator_ColumnPropNameInTable="transport_modelColumn" msprop:Generator_UserColumnName="transport_model" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_number" msprop:Generator_ColumnVarNameInTable="columntransport_number" msprop:Generator_ColumnPropNameInRow="transport_number" msprop:Generator_ColumnPropNameInTable="transport_numberColumn" msprop:Generator_UserColumnName="transport_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="transport_enabled" msprop:Generator_ColumnVarNameInTable="columntransport_enabled" msprop:Generator_ColumnPropNameInRow="transport_enabled" msprop:Generator_ColumnPropNameInTable="transport_enabledColumn" msprop:Generator_UserColumnName="transport_enabled" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="current_point_location_address" msprop:Generator_ColumnVarNameInTable="columncurrent_point_location_address" msprop:Generator_ColumnPropNameInRow="current_point_location_address" msprop:Generator_ColumnPropNameInTable="current_point_location_addressColumn" msprop:Generator_UserColumnName="current_point_location_address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="price" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_UserColumnName="price" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

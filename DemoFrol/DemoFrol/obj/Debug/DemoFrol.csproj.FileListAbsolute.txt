@@ -1,0 +1,13 @@
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\bin\Debug\DemoFrol.exe.config
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\bin\Debug\DemoFrol.exe
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\bin\Debug\DemoFrol.pdb
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.csprojResolveAssemblyReference.cache
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.Log_In.resources
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.Main.resources
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.Properties.Resources.resources
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.csproj.GenerateResource.cache
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.csproj.CoreCompileInputs.cache
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.exe
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.pdb
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.AddForm.resources
+Z:\ISP-302\MegaDrive\DemoFrol\DemoFrol\obj\Debug\DemoFrol.ManagerForm.resources
